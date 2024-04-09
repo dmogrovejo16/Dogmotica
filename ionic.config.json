@@ -1,0 +1,7 @@
+{
+  "name": "DogmoticaRealTime",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
