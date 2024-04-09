@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Switches States
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,12 +9,37 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
+      <ion-title size="large">Switches State</ion-title>
+        </ion-toolbar>
   </ion-header>
+  <ion-progress-bar [value]="progress"></ion-progress-bar>  
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="container">
+    <div class="subc">
+      
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="sala" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+  <div class="subc">
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="cocina" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+  <div class="subc">
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="habitacionLisa" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+  <div class="subc">
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="habitacionBart" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+  <div class="subc">
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="garaje" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+  <div class="subc">
+    <ion-label>Switch 1</ion-label>
+    <ion-toggle [checked]="entrada" [disabled]="true">Estado:</ion-toggle>  
+  </div>
+
   </div>
 </ion-content>
